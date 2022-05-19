@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
+from test import get_digitsentimentresults
+print(get_digitsentimentresults())
 negativ = []
 positiv = []
 neutral = []
 
-zahlen = [0.695, -0.685, 0.675, 0.265, -0.655, 0.645, 0.135, -0.625, 0.615, 0.205]
+zahlen = get_digitsentimentresults()
 
 for zahl in zahlen:
     (round(zahl, 0))#, f"= round({zahl}, 2)")

@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from test import get_digitsentimentresults
 print(get_digitsentimentresults())
+
 negativ = []
 positiv = []
 neutral = []
